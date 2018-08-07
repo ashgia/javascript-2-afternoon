@@ -96,7 +96,6 @@ Instead, console.log your whole backPack object and then check out the console.
 
 console.log(backPack);
 
-//
 
 ////////// PROBLEM 4 //////////
 
@@ -117,12 +116,10 @@ var user2 = {
   Make that change without modifying the original object code above.
 */
 
-//Code Here
+user2.name = 'Tyler S. McGinnis'
+user2.email = 'tyler.mcginnis@devmounta.in'
 
-
-
-
-
+console.log(user2)
 
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
