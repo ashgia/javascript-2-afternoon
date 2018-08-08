@@ -138,6 +138,7 @@ console.log(user2)
 */
 
 //Code Here
+var methodCollection = {}
 
 
 
@@ -147,7 +148,12 @@ console.log(user2)
 */
 
 //Code Here
-
+methodCollection.alertHello = function(){
+  alert('hello')
+}
+methodCollection.logHello = function(){
+  console.log('hello')
+}
 
 
 /*
@@ -155,7 +161,8 @@ console.log(user2)
 */
 
 //Code Here
-
+methodCollection.alertHello()
+methodCollection.logHello()
 
 
 ////////// PROBLEM 6 //////////
@@ -166,7 +173,16 @@ console.log(user2)
 */
 
 //Code Here
+function makePerson(name, birthday, ssn){
+  var person = {
+    name: name,
+    birthday: birthday,
+    ssn: ssn
+  }
+  return person
+} 
 
+makePerson('Ashley', '7/27/94', 554)
 
 
 ////////// PROBLEM 7 //////////
@@ -177,5 +193,14 @@ console.log(user2)
 */
 
 //Code Here
+function makeCard(cardNumber, expirationDate, securityCode){
+  var creditCard = {
+    cardNumber: cardNumber,
+    expirationDate: expirationDate,
+    securityCode: securityCode
+  }
+  return creditCard
+}
 
+makeCard(1234567,12/12/18,324)
 
